@@ -1,0 +1,14 @@
+{% extends 'basic.html' %}
+
+{% block header %}
+  <h2>{% block title %}View Messages{% endblock %}</h2>
+{% endblock %}
+
+{% block content %}
+    {% for row in rows %}
+        <p class = "message">{{row[2]}} </p>
+        <p class = "handle">- <i>{{row[1]}}</i> </p>
+        <br>
+    {% endfor %}
+  
+{% endblock %}
