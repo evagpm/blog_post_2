@@ -1,0 +1,22 @@
+* {
+    font-family: Georgia, sans-serif;
+    background-color:gainsboro;
+}
+
+.message {
+    color: rgb(14, 14, 136);
+}
+
+.handle {
+    color:royalblue;
+    margin-left: 30px;
+}
+
+fieldset, label {
+    background-color: rgb(218, 215, 184);
+}
+
+#submit {
+    background-color: lightblue;
+    font-size: 1em;
+}
