@@ -1,6 +1,6 @@
 * {
     font-family: Georgia, sans-serif;
-    background-color:gainsboro;
+    background-color:rgb(229, 243, 247);
 }
 
 .message {
@@ -17,6 +17,6 @@ fieldset, label {
 }
 
 #submit {
-    background-color: lightblue;
+    background-color: sandybrown;
     font-size: 1em;
 }
